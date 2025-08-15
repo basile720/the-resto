@@ -1,19 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP-JS-9</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="app">
-        <form action="">
-            <label for="search">Entrez le nom d'un aliment (en anglais)</label><br>
-            <input type="text" placeholder="ex : beef" id="search">
-        </form>
-        <ul id="result"></ul>
-    </div>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Resto</title>
+    <link rel="shortcut icon" href="./The Resto_files/ic-plate.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Resto</h2>
+        <ul class="pages">
+          <li class="home">home</li>
+          <li class="reservations">reservations</li>
+          <li class="menu">menu</li>
+          <li class="blog">blog</li>
+          <li class="page">pages</li>
+          <li class="shop">shop</li>
+          <li class="contact">contact</li>
+        </ul>
+        <ul class="icon">
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li>
+            <i class="fab fa-instagram"></i>
+          </li>
+        </ul>
+      </nav>
+      <div class="welcome">
+        <h2>Welcome to</h2>
+        <h1>the resto</h1>
+        <img src="./ic-plate-big.png" alt="" />
+        <p>we serve only the freshest ingredients !</p>
+      </div>
+    </header>
+    <main>
+      <div class="section1">
+        <div class="section1-left">
+          <h2>Discover</h2>
+          <h3>our store</h3>
+          <img src="ic-plate.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi
+            quas aliquam a laudantium earum provident et eaque ab, accusamus
+            aperiam mollitia, asperiores minima assumenda tempora? Quibusdam,
+            quaerat ullam eos vel iste, odio soluta.
+          </p>
+          <div class="chef">
+            <img src="./avatar-01.jpg" alt="" />
+            <h4>Russell Stephens</h4>
+            <span>chef cook</span>
+          </div>
+        </div>
+        <div class="section1-right"></div>
+      </div>
+      <div class="section2">
+        <h2>Discover</h2>
+        <img src="./ic-plate.png" alt="" />
+        <ul>
+          <li>breakfast</li>
+          <li>lunch</li>
+          <li>dinner</li>
+          <li>drinks</li>
+          <li>other</li>
+        </ul>
+        <div class="meals">
+          <div class="meal">
+            <img src="./dish-item-01.jpg" id="animeImg" alt="meal-1" />
+            <div class="meal-text">
+              <h3>italian source mushroom</h3>
+              <p>Mushroom / Garlic / Veggies</p>
+            </div>
+            <p>$12</p>
+          </div>
+          <div class="meal">
+            <img
+              src="./dish-item-02.jpg"
+              id="animeImg1"
+              alt="meal-1"
+            />
+            <div class="meal-text">
+              <h3>fried potatoes with garlic</h3>
+              <p>potatoes / olive oil / garlic</p>
+            </div>
+            <p>$22</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-03.jpg" id="animeImg2" alt="meal-1" />
+            <div class="meal-text">
+              <h3>tenu roast source</h3>
+              <p>tuna / potatoes / rice</p>
+            </div>
+            <p>$15</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-04.jpg" alt="meal-1" id="animeImg3" />
+            <div class="meal-text">
+              <h3>roast pork (4 sticks)</h3>
+              <p>pork / Veggies / shoyu</p>
+            </div>
+            <p>$18</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-05.jpg" alt="meal-1" id="animeImg4" />
+            <div class="meal-text">
+              <h3>salted fried chicken</h3>
+              <p>chicken / olive oil / salt</p>
+            </div>
+            <p>$20</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-06.jpg" alt="meal-1" id="animeImg5" />
+            <div id="meal-text">
+              <h3>crab with curry sources</h3>
+              <p>crab / potatoes / rice</p>
+            </div>
+            <p>$14</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-07.jpg" alt="meal-1" id="animeImg6" />
+            <div class="meal-text">
+              <h3>imported slamon chicken</h3>
+              <p>slamon / veggies / oil</p>
+            </div>
+            <p>$16</p>
+          </div>
+          <div class="meal">
+            <img src="./dish-item-08.jpg" alt="meal-1" id="animeImg7" />
+            <div class="meal-text">
+              <h3>baked potato pizza</h3>
+              <p>potato / bread / cheese</p>
+            </div>
+            <p>$25</p>
+          </div>
+        </div>
+      </div>
+      <div class="section3">
+        <div class="section3-container">
+          <div class="section3-left">
+            <div class="left">
+              <h2>Time</h2>
+              <h4>OPEN</h4>
+              <img src="./ic-plate.png" alt="" />
+              <h3>monday - friday</h3>
+              <p>7AM - 11AM (breakfast) <br />11am - 10pm(lunch/dinner)</p>
+              <h3>saturday / sunday</h3>
+              <p>8AM - 1PM (brunch)</p>
+              <p>1pm - 9pm (lunch/dinner)</p>
+              <h3>+15 890 979 25 52</h3>
+            </div>
+          </div>
+          <div class="section3-right">
+            <h2>Reservation</h2>
+            <h3>online booking</h3>
+            <img src="./ic-plate.png" alt="" />
+            <div class="input">
+              <select id="people">
+                <option value="1">People</option>
+                <option value="2">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+              <input type="date" id="date" />
+              <input type="time" id="time" />
+              <input type="text" id="name" placeholder="name" />
+              <input type="text" id="phone" placeholder="phone" />
+              <input type="text" id="e-mail" placeholder="Email" />
+            </div>
+            <button>book now</button>
+          </div>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="section4-container">
+          <h2>Upcoming</h2>
+          <h3>our event</h3>
+          <img src="./ic-plate.png" alt="" />
+          <div class="section4-event">
+            <div class="event-left">
+              <div class="place">
+                <div class="place-img">
+                  <div class="place-date">
+                    <h4>08</h4>
+                    <h5>july</h5>
+                  </div>
+                </div>
+                <div class="event">
+                  <h4>Night Inspirescu Party</h4>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Restaurant Resto
+                    <i class="fa-regular fa-clock"></i>
+                    10:00pm - 6:00am
+                  </p>
+                  <h5>buy tickets</h5>
+                </div>
+              </div>
+              <div class="place2">
+                <div class="place-img2">
+                  <div class="place-date">
+                    <h4>08</h4>
+                    <h5>july</h5>
+                  </div>
+                </div>
+                <div class="event">
+                  <h4>DJ RobagRuhme</h4>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    restaurant resto
+                    <i class="fa-solid fa-clock"></i>
+                    10:00pm - 6:00am
+                  </p>
+                  <h5>buy tickets</h5>
+                </div>
+              </div>
+            </div>
+            <div class="place-3">
+              <div class="place-img3">
+                <div class="place-date3">
+                  <h4>08</h4>
+                  <h5>july</h5>
+                </div>
+                <div class="event-3">
+                  <h4>Thousands celebritie at <br />Johnnie Night</h4>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    restaurant resto
+                    <i class="fa-solid fa-clock"></i>
+                    10:00pm - 6:00am
+                  </p>
+                  <h5>buy tickets</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section5">
+        <div class="chef-2">
+          <img src="./avatar-02.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            corrupti nemo expedita, quis tempora consequatur voluptatum.
+            Nesciunt atque laboriosam maxime dignissimos suscipit repellat
+            pariatur perspiciatis eaque ex ipsam temporibus beatae, esse
+            voluptatibus sapiente error quia totam. Laboriosam debitis rerum
+            fugiat.
+          </p>
+          <h3>Russel Stepehns</h3>
+          <h2>CEO - headPasssion</h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2>Resto</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero velit
+            quos explicabo veniam error obcaecati! Amet dignissimos quod dolorem
+            aspernatur? Fugiat quam ex illum optio.
+          </p>
+        </div>
+        <div class="footer-right">
+          <h3>newletter</h3>
+          <label for="Email"></label>
+          <input type="text" placeholder="Your email address" />
+          <div class="follow">
+            <h3>follow us:</h3>
+            <ul>
+              <li>
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-pinterest"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
